@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #f0f0f0;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Georgia', serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+  padding-top: 80px;
+}
+
+.music-background {
+  background-image: url(''); /* royalty-free dark music notes background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px 20px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+  margin-left: 170px;
+  padding: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* optional for readability */
+}
+
+
+
+.about-text {
+  flex: 1;
+  max-width: 1000px;
+}
+
+.about-text h1 {
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-text h4 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.eppp {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #dddddd;
+  margin-left: 60vh;
+  margin-top: -70vh;
+}

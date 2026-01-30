@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Instruments - MuseeKho</title>
+  <link rel="stylesheet" href="join.css"/>
+</head>
+<body>
+
+  <div class="background-circles"></div>
+
+  <section class="header">
+      <div class="logo">
+          <img src="assests/bg/logo.jpg" alt="museeKho Logo" />
+      </div>
+
+      <!-- FIXED: Menu Button -->
+      <div class="menu-btn" onclick="openMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+      
+      <!-- Side Menu -->
+      <div id="sideMenu" class="side-menu">
+        <span class="close-btn" onclick="closeMenu()">&times;</span>
+        <a href="./home.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./kids.html">Testimonials</a>
+        <a href="./parent.html">Parent</a>
+        <a href="./join.html">Join</a>
+        <a href="./login.html">Login</a>
+      </div>
+  </section>
+
+  <section class="music-rotation">
+    <div class="note-container">
+      <div class="note">♪</div>
+      <div class="note">♫</div>
+      <div class="note">♩</div>
+      <div class="note">𝄞</div>
+      <div class="note">♭</div>
+    </div>
+  </section>
+
+  <!-- Your form and footer code stays unchanged -->
+
+  <script>
+    function openMenu() {
+      document.getElementById("sideMenu").style.width = "250px";
+    }
+    function closeMenu() {
+      document.getElementById("sideMenu").style.width = "0";
+    }
+  </script>
+
+</body>
+</html>

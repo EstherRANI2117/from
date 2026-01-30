@@ -1,0 +1,30 @@
+/* FIXED MENU BUTTON */
+.menu-btn {
+  cursor: pointer;
+  z-index: 1002;
+  position: fixed;
+  right: 20px;  /* Always on right */
+  top: 20px;    /* Always same height */
+}
+
+.menu-btn div {
+  width: 30px;
+  height: 4px;
+  background: rgb(0, 0, 0);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* FIX SIDE MENU */
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1000;
+}
